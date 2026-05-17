@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 — Trainiq</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,900;1,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Archivo', sans-serif;
+  background: #FAFAF7;
+  color: #0A0A0D;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+.wrap { max-width: 720px; text-align: left; }
+.kicker {
+  font-size: 11px; font-weight: 800; letter-spacing: 2.5px;
+  text-transform: uppercase; color: #14B8A6; margin-bottom: 24px;
+}
+h1 {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 900;
+  font-stretch: condensed;
+  font-size: clamp(80px, 14vw, 200px);
+  line-height: 0.85;
+  letter-spacing: -0.02em;
+  margin-bottom: 12px;
+}
+h1 em {
+  font-family: 'Instrument Serif', serif;
+  font-style: italic;
+  font-weight: 400;
+  color: rgba(10,10,13,0.5);
+  display: block;
+  font-size: 0.4em;
+  margin-top: 8px;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 32px;
+  max-width: 560px;
+  color: rgba(10,10,13,0.7);
+}
+a.back {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #0A0A0D;
+  color: #FAFAF7;
+  padding: 16px 26px;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background 0.15s ease;
+}
+a.back:hover { background: #14B8A6; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="kicker">Status · Vier Null Vier</div>
+  <h1>404. <em>Diese Seite existiert nicht.</em></h1>
+  <p>Vielleicht hast du dich verlaufen, vielleicht ist die Seite verschoben. Zurück zur Startseite und nochmal versuchen.</p>
+  <a href="/" class="back">Zur Startseite <span>→</span></a>
+</div>
+</body>
+</html>
